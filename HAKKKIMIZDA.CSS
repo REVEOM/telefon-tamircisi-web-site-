@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,300;1,400;1,500&display=swap');
+
+:root{
+    --main-color :#bc6c25;
+    --white-color:#f8edeb;
+    --black-color:#011627;
+    border: 0.1rem solid rgba(255,255,255,0.4);
+    
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    font-family:"poppins",sans-serif;
+    
+
+/*! base html codes */
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+
+}
+
+section{
+    padding:3.5rem 10%;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    padding: 2rem 3.75rem;
+    color:#011627;
+    background-color: #bc6c25;
+    cursor: pointer;
+
+}
+
+
+/*! header start*/
+
+.header .logo img {
+height: 100px;
+
+
+}
+body{
+    background-color: var(--main-color);
+}
+
+.header{
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 10%;
+    margin: 2rem 10%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17pz -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #011627 ;
+    border-bottom:0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover{
+    
+border-color: #bc6c25;
+padding-bottom: 0.5rem;
+}
+
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.3rem;
+    margin-left: 2rem;
+    background-color: transparent; 
+    
+
+    
+}
+
+.hakkımızda {
+    min-height: 100vh;
+    background: url(Çalışma\ yüzeyi\ 1.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: color var(--white-color);
+    margin-top: -14.7rem;
+   
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.hakkımızda .content{
+    max-width: 60rem;
+    margin-top: 8rem;
+    margin-left: 25%;
+   
+   align-items: center;
+
+}
+
+.hakkımızda .content h3{
+    font-size: 6rem;
+    color: #f8edeb;
+    margin-left: 7rem;
+    align-items: center;
+}
+
+
+.hakkımızda .content p{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2;
+    padding: 1rem 0;
+    color: #ccc;
+    align-items: center;
+    
+}
+
+

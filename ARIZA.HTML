@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ARIZA.CSS">
+    
+    
+    
+    <title>TELEFON TAMİRCİSİ</title>
+</head>
+<body>
+    <header class="header">
+        <a href="HOME.HTML" class="logo"><img src="/logo.png" alt="logo"></a>
+        
+        <nav class="navbar">
+            <a href="#" class="active">Anasayfa</a>
+            <a href="HAKKIMIZDA.HTML">Hakkımızda</a>
+            <a href="#">İletişim</a>
+            <a href="#">Hizmetlerimiz</a>
+            <a href="#">Mağaza</a>
+        </nav>
+        <div class="buttons">
+            <button><i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-cash-register"></i>
+            </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <form action="ARIZA.CSS">
+            <label for="TELEFON NUMARASI">TELEFON NUMARASI/E-POSTA</label>
+            <input type="text" id="t.num/e-posta" name="t.num / e-posta" placeholder="telefon numarası yada eposta">
+            
+            <label for="isim">İSMİNİZ...</label>
+            <input type="text" id="isim" name="isim" placeholder="isminiz...">
+
+            <label for="soyisim">SOYİSMİNİZ</label>
+            <input type="text" id="soyisim" name="soyisim" placeholder="soyisminiz">
+
+            <label for="phone">TELEFON MARKASI</label>
+            <select name="phone mark" id="phonemark">telefon maarkası
+                <option value="samsung">samsung</option>
+                <option value="xioami/redmi">xioami/redmi</option>
+                <option value="huawei">huawei</option>
+                <option value="iphone">iphone</option>
+                <option value="htc">htc</option>
+                <option value="blackberry">blackberry</option>
+            </select>
+
+            <label for="model"> telefon isminizi yazınız </label>
+            <input type="text" id="model" name="model" placeholder="telefon modeli">
+
+            <label for="arıza nedir?"> arıza nedir?</label>
+            <textarea name="arıza" id="arıza"  placeholder="arıza nedir?" style="height: 200px;"></textarea>
+
+            <input type="submit" value="gönder">
+            
+        </form>
+    </div>
+</body>
+</html>
